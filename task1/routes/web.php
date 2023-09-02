@@ -18,11 +18,8 @@ use App\Http\Controllers\task1;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get ('example',function(){
-// return view('example');
-// });
-//  Route::get('example','examplecontroller@example_fun');  //bath+contorllername@the name of function insider controller
- Route::get('/example',examplecontroller::class . '@example_fun');
+
+
 
 
 
